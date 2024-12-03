@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Stories</title>
+    <style>
+        body {
+            font-family: broadway, sans-serif;
+            background-color:#FFB6C1;
+            margin: 0;
+            padding: 0;
+            color: #2F4F4F;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #2F4F4F;
+            margin-top: 20px;
+        }
+
+        hr {
+            margin: 20px auto;
+            border: 1px solid #2F4F4F;
+            width: 80%;
+        }
+
+        nav {
+            background-color: #2F4F4F;
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #D8BFD8;
+            color: #2F4F4F;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1200px;
+        }
+
+        .gallery figure {
+            margin: 0;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery figure img {
+            width: 100%;
+            height: 150px; /* Ukuran tinggi gambar lebih kecil */
+            object-fit: cover;
+        }
+
+        .gallery figcaption {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            font-size: 12px; /* Teks lebih kecil agar sesuai */
+            padding: 10px;
+            text-align: left;
+        }
+
+        .gallery figure:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
+
+            nav ul li {
+                margin: 0 5px;
+            }
+
+            .gallery figure img {
+                height: 100px; /* Gambar lebih kecil untuk perangkat kecil */
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="biodata.html">BIODATA</a></li>
+            <li><a href="experiences.html">EXPERIENCES</a></li>
+            <li><a href="education.html">EDUCATION</a></li>
+            <li><a href="family.html">FAMILY</a></li>
+            <li><a href="contact2.html">CONTACT</a></li>
+            <li><a href="gallery2.html">GALLERY</a></li>
+        </ul>
+    </nav>
+
+    <h1>Welcome to My Family Stories</h1>
+    <hr>
+    <div class="gallery">
+        <figure>
+            <img src="gambar30.jpg" alt="Image 30">
+            <figcaption>
+                <strong>My Parents:</strong> This is my mom and dad. My dad, Mohd Safri Bin Mohd Isa, and my mom, Normah Binti Abdul Hamid, were married in 1995. They were blessed with three daughters.
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="gambar31.jpg" alt="Image 31">
+            <figcaption>
+                <strong>Memories of Mom:</strong> On November 26, 2018, my mom passed away after battling kidney disease for five years. I miss her dearly—her cooking, her voice, and her presence in our lives.
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="gambar32.jpg" alt="Image 32">
+            <figcaption>
+                <strong>My New Mother:</strong>My father was married to my new mother on 2022.She is the best stepmother . she loves me like her own daughter . she came from Pahang and was blessed with 5 sons.
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="gambar33.jpg" alt="Image 33">
+            <figcaption>
+               <strong>First Sister:</strong>This is my older sister.Her name is Fitti Natrah Binti Mohd safri .She was married and blessed with one daughter.The is the most clingy sister i ever had.Sometimes it doesn't seem like i'm the youngest as my sister is more clingy than me . She is my mother since my mom left us . She was there when i needed.
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="gambar34.jpg" alt="Image 34">
+            <figcaption>
+                  <strong>Second:</strong>This is my second sister.Her name is fetty Nursahirah Binti Mohd Safri .She was married and blessed with 2 sons.She is older 5 years than me .During my late mother,she always argue with me .But since our mom left,our life totally changed.She was the person who always protect me , Care about me and many more . Im gratefull to have my sisters in my life .
+            </figcaption>
+        </figure>
+    </div>
+</body>
+</html>

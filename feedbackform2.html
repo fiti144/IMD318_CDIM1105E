@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="biodata.html">BIODATA</a>
+        <a href="experiences.html">EXPERIENCES</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="family.html">FAMILY</a>
+        <a href="gallery2.html">GALLERY</a>
+        <a href="contact2.html">CONTACT</a>
+           </nav>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:#2F4F4F ;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#2F4F4F;
+}
+
+
+
+ nav {
+            font-family:broadway;
+            background-color: #2F4F4F;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #8FBC8F;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+.container {
+  border-radius: 5px;
+  background-color:#8FBC8F;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3><b>Feedback Form</h3>
+
+<div class="container">
+  <form action="mailto:fitinurfatihah04@gmail.com" method ="post" enctype="text/plain">
+    <label for="fname">First Name</label>
+
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="feedback">Feedback</label>
+    <textarea id="feedback" name="feedback" placeholder="Your feedback?Thankyou.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
